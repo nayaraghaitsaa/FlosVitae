@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flos Vitae</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Caveat:wght@400..700&family=Delius&family=Great+Vibes&family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar start-->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Flos<span>Vitae.</span></a>
+      <div class="navbar-nav">
+        <a href="index.html">Home</a>
+        <a href="index.html#about">About us</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#">-ˋˏ ༻❁❀✿❀❁༺ ˎˊ-</a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar end-->
+
+    <!-- Back Button Start -->
+    <button class="btn-back" onclick="goBack()">← Back</button>
+    <!-- Back Button End -->
+
+    <!-- Hero Section Start -->
+    <section class="hero-bunga">
+      <main class="content">
+        <h1>.•° ✿ °•. FLOWERS</h1>
+      </main>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Bunga Section Start -->
+    <section id="bunga" class="bunga">
+      <div class="row">
+        <div
+          class="bunga-card"
+          data-nama="Lily"
+          data-submenu='[
+              {
+              "nama": "White Lily",
+              "img": "img/Lily/white-lily.png",
+              "harga": "IDR 35K",
+              "makna": "Purity and virginity."
+              
+              },
+              {
+              "nama": "Calla  Lily",
+              "img": "img/Lily/calla-lily.png",
+              "harga": "IDR 35K",
+              "makna": "Symbol of beauty, sign of devotion, faith."
+              },
+              {
+              "nama": "Oriental Lily",
+              "img": "img/Lily/oriental-lily.png",
+              "harga": "IDR 40K",
+              "makna": "Pure & flawless love."
+              },
+              {
+              "nama": "Royal Lily",
+              "img": "img/Lily/royal-lily.png",
+              "harga": "IDR 45K",
+              "makna": "Royalty & privilege."
+              },
+              {
+              "nama": "Blue Lily",
+              "img": "img/Lily/blue-lily.png",
+              "harga": "IDR 30K",
+              "makna": "Faminime energy, symbol of the sun & rebirth."
+              }
+            ]'
+        >
+          <img src="img/Flowers/lily.png" alt="Lily" class="bunga-card-img" />
+          <h3 class="bunga-card-title">- LILY -</h3>
+          <p class="bunga-card-price">IDR 25K - 45K</p>
+        </div>
+
+        <div
+          class="bunga-card"
+          data-nama="Sunflower"
+          data-submenu='[
+              {
+              "nama": "Sunflower",
+              "img": "img/Flowers/sunflower.png",
+              "harga": "IDR 75K",
+              "makna": "Symbolizes happiness, loyalty, vitality, and strength, as well as peace and dedication."
+              }
+            ]'
+        >
+          <img
+            src="img/Flowers/sunflower.png"
+            alt="Sunflower"
+            class="bunga-card-img"
+          />
+          <h3 class="bunga-card-title">- SUNFLOWER -</h3>
+          <p class="bunga-card-price">IDR 75K</p>
+        </div>
+
+        <div
+          class="bunga-card"
+          data-nama="Rose"
+          data-submenu='[
+              {
+              "nama": "Red Rose",
+              "img": "img/Rose/red-rose.png",
+              "harga": "IDR 10K",
+              "makna": "True love, deep romance, passion, and courage."
+              },
+              {
+              "nama": "White Rose",
+              "img": "img/Rose/white-rose.png",
+              "harga": "IDR 20K",
+              "makna": "Purity, new beginnings, and reverence."
+              },
+              {
+              "nama": "Pink Rose",
+              "img": "img/Rose/pink-rose.png",
+              "harga": "IDR 15K",
+              "makna": "Admiration, gratitude, grace, compassion and sympathy."
+              }
+            ]'
+        >
+          <img src="img/Flowers/rose.png" alt="Rose" class="bunga-card-img" />
+          <h3 class="bunga-card-title">- ROSE -</h3>
+          <p class="bunga-card-price">IDR 15K - 30K</p>
+        </div>
+
+        <div
+          class="bunga-card"
+          data-nama="Peony"
+          data-submenu='[
+              {
+              "nama": "Red Peony",
+              "img": "img/Peony/red-peony.png",
+              "harga": "IDR 120K",
+              "makna": "Deep love, passion, courage, and respect."
+              },
+              {
+              "nama": "White Peony",
+              "img": "img/Peony/white-peony.png",
+              "harga": "IDR 100K",
+              "makna": "Purity, innocence, sympathy, and shyness."
+              },
+              {
+              "nama": "Pink Peony",
+              "img": "img/Peony/pink-peony.png",
+              "harga": "IDR 150K",
+              "makna": "A symbol of warm love, femininity, elegance and happiness."
+              },
+              {
+              "nama": "Coral Peony",
+              "img": "img/Peony/coral-peony.png",
+              "harga": "IDR 150K",
+              "makna": "Depicting passion, enthusiasm, ambition, and a bold impression in a flower arrangement."
+              }
+            ]'
+        >
+          <img src="img/Flowers/peony.png" alt="Peony" class="bunga-card-img" />
+          <h3 class="bunga-card-title">- PEONY -</h3>
+          <p class="bunga-card-price">IDR 100K - 150K</p>
+        </div>
+
+        <div
+          class="bunga-card"
+          data-nama="Orchid"
+          data-submenu='[
+              {
+              "nama": "White Orchid",
+              "img": "img/Orchid/white-orchid.png",
+              "harga": "IDR 30K",
+              "makna": "Purity, innocence, grace, respect, and new beginnings."
+              },
+              {
+              "nama": "Red Orchid",
+              "img": "img/Orchid/red-orchid.png",
+              "harga": "IDR 40K",
+              "makna": "Love, passion, strength, courage, and deep respect."
+              },
+              {
+              "nama": "Yellow Orchid",
+              "img": "img/Orchid/yellow-orchid.png",
+              "harga": "IDR 35K",
+              "makna": "Happiness, joy, friendship, good wishes and good luck."
+              },
+              {
+              "nama": "Purple Orchid",
+              "img": "img/Orchid/purple-orchid.png",
+              "harga": "IDR 60K",
+              "makna": "Luxury, nobility, awe and majesty."
+              },
+              {
+              "nama": "Blue Orchid",
+              "img": "img/Orchid/blue-orchid.png",
+              "harga": "IDR 60K",
+              "makna": "Rare and unique, because it is very difficult to find naturally."
+              },
+              {
+              "nama": "Black Orchid",
+              "img": "img/Orchid/black-orchid.png",
+              "harga": "IDR 70K",
+              "makna": "Mystery, power, assertiveness and sophistication."
+              }
+            ]'
+        >
+          <img
+            src="img/Flowers/anggrek.png"
+            alt="Anggrek"
+            class="bunga-card-img"
+          />
+          <h3 class="bunga-card-title">- ORCHID -</h3>
+          <p class="bunga-card-price">IDR 30K - 70K</p>
+        </div>
+
+        <div
+          class="bunga-card"
+          data-nama="Carnation"
+          data-submenu='[
+              {
+              "nama": "White Carnation",
+              "img": "img/Carnation/white-carnation.png",
+              "harga": "IDR 30K",
+              "makna": "Purity, sincere love, and good luck, it is often used for weddings or sympathy flowers."
+              },
+              {
+              "nama": "Pink Carnation",
+              "img": "img/Carnation/pink-carnation.png",
+              "harga": "IDR 40K",
+              "makna": "Symbolizing tenderness, gratitude, and eternal love."
+              },
+              {
+              "nama": "Purple Carnation",
+              "img": "img/Carnation/purple-carnation.png",
+              "harga": "IDR 50K",
+              "makna": "Depicting elegance, honor, steadfastness, and poise, it is often given for formal occasions or as a special gift."
+              },
+              {
+              "nama": "Striped Carnation",
+              "img": "img/Carnation/striped-carnation.png",
+              "harga": "IDR 60K",
+              "makna": "Rejection or regret."
+              }
+            ]'
+        >
+          <img
+            src="img/Flowers/carnation.png"
+            alt="Carnation"
+            class="bunga-card-img"
+          />
+          <h3 class="bunga-card-title">- CARNATION -</h3>
+          <p class="bunga-card-price">IDR 25K - 60K</p>
+        </div>
+
+        <div
+          class="bunga-card"
+          data-nama="Chrysanthemum"
+          data-submenu='[
+              {
+              "nama": "Red Chrysanthemum",
+              "img": "img/Chrysanthemum/red-chrysanthemum.png",
+              "harga": "IDR 10K",
+              "makna": "Deep love, passion, appreciation."
+              },
+              {
+              "nama": "Yellow Chrysanthemum",
+              "img": "img/Chrysanthemum/yellow-chrysanthemum.png",
+              "harga": "IDR 8K",
+              "makna": "Optimism, joy, but can also mean unrequited love or sadness."
+              },
+              {
+              "nama": "White Chrysanthemum",
+              "img": "img/Chrysanthemum/white-chrysanthemum.png",
+              "harga": "IDR 5K",
+              "makna": "Honesty, loyalty, purity. In the West it is for peace, in Asia (China, Japan) it is often for mourning or commemoration."
+              },
+              {
+              "nama": "Purple Chrysanthemum",
+              "img": "img/Chrysanthemum/purple-chrysanthemum.png",
+              "harga": "IDR  15K",
+              "makna": "Luxury, mystery, and the hope of a long life or recovery."
+              },
+              {
+              "nama": "Pink Chrysanthemum",
+              "img": "img/Chrysanthemum/pink-chrysanthemum.png",
+              "harga": "IDR 12K",
+              "makna": "Affection, tenderness, care."
+              }
+            ]'
+        >
+          <img
+            src="img/Flowers/chrysanthemum.png"
+            alt="Chrysanthemum"
+            class="bunga-card-img"
+          />
+          <h3 class="bunga-card-title">- CHRYSANTHEMUM -</h3>
+          <p class="bunga-card-price">IDR 5K - 20K</p>
+        </div>
+
+        <div
+          class="bunga-card"
+          data-nama="Gerbera"
+          data-submenu='[
+              {
+              "nama": "White Gerbera",
+              "img": "img/Gerbera/white-gerbera.png",
+              "harga": "IDR 7K",
+              "makna": "Purity, innocence, new beginnings, and holiness."
+              },
+              {
+              "nama": "Yellow Gerbera",
+              "img": "img/Gerbera/yellow-gerbera.png",
+              "harga": "IDR 8K",
+              "makna": "Happiness, cheerfulness, friendship and warmth."
+              },
+              {
+              "nama": "Red Gerbera",
+              "img": "img/Gerbera/red-gerbera.png",
+              "harga": "IDR 12K",
+              "makna": "Love, passion, deep affection."
+              },
+              {
+              "nama": "Pink Gerbera",
+              "img": "img/Gerbera/pink-gerbera.png",
+              "harga": "IDR 12K",
+              "makna": "Admiration, grace, affection, and appreciation."
+              },
+              {
+              "nama": "Orange Gerbera",
+              "img": "img/Gerbera/orange-gerbera.png",
+              "harga": "IDR 15K",
+              "makna": "Joy, enthusiasm, new beginnings, and passion."
+              }
+            ]'
+        >
+          <img
+            src="img/Flowers/gerbera.png"
+            alt="Gerbera"
+            class="bunga-card-img"
+          />
+          <h3 class="bunga-card-title">- GERBERA -</h3>
+          <p class="bunga-card-price">IDR 7K - 20K</p>
+        </div>
+
+        <div
+          class="bunga-card"
+          data-nama="Tulip"
+          data-submenu='[
+              {
+              "nama": "Red Tulip",
+              "img": "img/Tulip/red-tulip.png",
+              "harga": "IDR 40K",
+              "makna": "Symbol of love and passion."
+              },
+              {
+              "nama": "Yellow Tulip",
+              "img": "img/Tulip/yellow-tulip.png",
+              "harga": "IDR 30K",
+              "makna": "Represents jealousy or hopeless love, but can also symbolize enthusiasm, happiness, and good hopes."
+              },
+              {
+              "nama": "White Tulip",
+              "img": "img/Tulip/white-tulip.png",
+              "harga": "IDR 50K",
+              "makna": "As a symbol of apology or to show condolences at a funeral."
+              },
+              {
+              "nama": "Pink Tulip",
+              "img": "img/Tulip/pink-tulip.png",
+              "harga": "IDR 50K",
+              "makna": "Symbolizes congratulations on a happy occasion (graduation, birth of a baby, or work award)."
+              }
+            ]'
+        >
+          <img src="img/Flowers/tulip.png" alt="Tulip" class="bunga-card-img" />
+          <h3 class="bunga-card-title">- TULIP -</h3>
+          <p class="bunga-card-price">IDR 30K - 50K</p>
+        </div>
+
+        <div
+          class="bunga-card"
+          data-nama="Hydragea"
+          data-submenu='[
+              {
+              "nama": "Pink Hydragea",
+              "img": "img/Hydragea/pink-hydragea.png",
+              "harga": "IDR 45K",
+              "makna": "Love, sincerity, true feelings, and gratitude."
+              },
+              {
+              "nama": "Blue Hydragea",
+              "img": "img/Hydragea/blue-hydragea.png",
+              "harga": "IDR 40K",
+              "makna": "Apology, regret, gratitude, or coldness of heart."
+              },
+              {
+              "nama": "White Hydragea",
+              "img": "img/Hydragea/white-hydragea.png",
+              "harga": "IDR 50K",
+              "makna": "Pride, arrogance, purity, or a new beginning."
+              },
+              {
+              "nama": "Purple Hydragea",
+              "img": "img/Hydragea/purple-hydragea.png",
+              "harga": "IDR 48K",
+              "makna": "The desire to know someone more deeply, wealth, and abundance."
+              }
+            ]'
+        >
+          <img
+            src="img/Flowers/hydragea.png"
+            alt="Hydragea"
+            class="bunga-card-img"
+          />
+          <h3 class="bunga-card-title">- HYDRAGEA -</h3>
+          <p class="bunga-card-price">IDR 40K - 50K</p>
+        </div>
+
+        <div
+          class="bunga-card"
+          data-nama="Dahlia"
+          data-submenu='[
+              {
+              "nama": "Pink Dahlia",
+              "img": "img/Dahlia/pink-dahlia.png",
+              "harga": "IDR 15K",
+              "makna": "Kindness, beauty, grace, appreciation."
+              },
+              {
+              "nama": "White Dahlia",
+              "img": "img/Dahlia/white-dahlia.png",
+              "harga": "IDR 15K",
+              "makna": "Purity, innocence, rebirth."
+              },
+              {
+              "nama": "Purple Dahlia",
+              "img": "img/Dahlia/purple-dahlia.png",
+              "harga": "IDR 20K",
+              "makna": "Dignity, admiration, nobility."
+              },
+              {
+              "nama": "Orange Dahlia",
+              "img": "img/Dahlia/orange-dahlia.png",
+              "harga": "IDR 18K",
+              "makna": "Energy, enthusiasm, excitement."
+              },
+              {
+              "nama": "Black Dahlia",
+              "img": "img/Dahlia/black-dahlia.png",
+              "harga": "IDR 20K",
+              "makna": "Mystery, betrayal, sadness."
+              }
+            ]'
+        >
+          <img
+            src="img/Flowers/dahlia.png"
+            alt="Dahlia"
+            class="bunga-card-img"
+          />
+          <h3 class="bunga-card-title">- DAHLIA -</h3>
+          <p class="bunga-card-price">IDR 15K - 20K</p>
+        </div>
+
+        <div
+          class="bunga-card"
+          data-nama="Cosmos"
+          data-submenu='[
+              {
+              "nama": "White Cosmos",
+              "img": "img/Cosmos/white-cosmos.png",
+              "harga": "IDR 8K",
+              "makna": "Purity, loyalty, devotion, new beginnings."
+              },
+              {
+              "nama": "Pink Cosmos",
+              "img": "img/Cosmos/pink-cosmos.png",
+              "harga": "IDR 12K",
+              "makna": "Sweet love, affection, happiness, femininity."
+              },
+              {
+              "nama": "Red Cosmos",
+              "img": "img/Cosmos/red-cosmos.png",
+              "harga": "IDR 18K",
+              "makna": "A symbol of passionate love, strength, and devotion."
+              },
+              {
+              "nama": "Purple Cosmos",
+              "img": "img/Cosmos/purple-cosmos.png",
+              "harga": "IDR 15K",
+              "makna": "Power, mystery, nobility, eternal love."
+              },
+              {
+              "nama": "Chocolate Cosmos",
+              "img": "img/Cosmos/chocolate-cosmos.png",
+              "harga": "IDR 15K",
+              "makna": "The luxury and aroma of chocolate."
+              }
+            ]'
+        >
+          <img
+            src="img/Flowers/cosmos.png"
+            alt="Cosmos"
+            class="bunga-card-img"
+          />
+          <h3 class="bunga-card-title">- COSMOS -</h3>
+          <p class="bunga-card-price">IDR 8K - 20K</p>
+        </div>
+      </div>
+    </section>
+    <!-- Bunga Section End -->
+
+    <!-- Popup Start -->
+    <div class="popup" id="popup">
+      <div class="popup-content">
+        <span id="close-popup">&times;</span>
+        <h2 id="popup-main-title"></h2>
+        <div id="popup-items"></div>
+      </div>
+    </div>
+    <!-- Popup End -->
+
+    <!-- Feather Icons-->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>
